@@ -57,6 +57,18 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define PB_1_Pin GPIO_PIN_0
+#define PB_1_GPIO_Port GPIOC
+#define PB_2_Pin GPIO_PIN_1
+#define PB_2_GPIO_Port GPIOC
+#define PB_3_Pin GPIO_PIN_2
+#define PB_3_GPIO_Port GPIOC
+#define PB_4_Pin GPIO_PIN_3
+#define PB_4_GPIO_Port GPIOC
+#define IMD_Indicator_Pin GPIO_PIN_8
+#define IMD_Indicator_GPIO_Port GPIOC
+#define BMS_Indicator_Pin GPIO_PIN_9
+#define BMS_Indicator_GPIO_Port GPIOC
 #define RTD_Pin GPIO_PIN_8
 #define RTD_GPIO_Port GPIOA
 #define USB_DN_Pin GPIO_PIN_11

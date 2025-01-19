@@ -1,81 +1,3 @@
-#include "main.h"
-#include "stm32f10x.h"
-
-
-//Pin definitions ermmm go back to
-
-
-void SystemClock_Config(void);
-static void MX_GPIO_Init(void);    //*
-void toggleLED(void);
-void checkSwitch(void);
-
-int main(void) {
-  HAL_Init();
-  SystemClock_Config();
-  MX_GPIO_Init();          //*
-
-  while(1) {
-    toggleLED();        //*
-    checkSwitch();
-    HAL_Delay(100);      //how long
-  }
-  return 0;           //*
-
-}
-
-void MX_GPIO_Init(void) {
-  __HAL_RCC_GPIOC_CLK_ENABLE();      //* GPIOA clock..?
-  GPIO_InitTypeDef GPIO_InitStruct = {0};
-
-  //configure LED pins as output *come back to
-
-  //configure switch pins as input?
-
-}
-
-
-void toggleLED(void) {
-  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);    //*inputs correct? thats just what clion suggested
-  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_14);
-}
-
-void checkSwitch(void) {
-    if (HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == GPIO_PIN_RESET) {      //*inputs
-      HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
-      HAL_GPIO_WritePin(GPIOC, GPIO_PIN_14, GPIO_PIN_SET);
-  } else {
-    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
-    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_14, GPIO_PIN_RESET);
-  }
-
-}
-
-//Error and clock at bottom, need to clean
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
@@ -97,6 +19,8 @@ void checkSwitch(void) {
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "can.h"
+#include "tim.h"
+#include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -166,6 +90,9 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_CAN2_Init();
+  MX_CAN1_Init();
+  MX_USART1_UART_Init();
+  MX_TIM5_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
