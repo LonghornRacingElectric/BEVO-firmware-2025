@@ -128,6 +128,14 @@ BEVO-firmware-2025.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/build
 .PHONY : BEVO-firmware-2025.elf/fast
 
+.idea/Core/Startup/startup_stm32l496rgtx.obj: .idea/Core/Startup/startup_stm32l496rgtx.s.obj
+.PHONY : .idea/Core/Startup/startup_stm32l496rgtx.obj
+
+# target to build an object file
+.idea/Core/Startup/startup_stm32l496rgtx.s.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/.idea/Core/Startup/startup_stm32l496rgtx.s.obj
+.PHONY : .idea/Core/Startup/startup_stm32l496rgtx.s.obj
+
 Core/Src/can.obj: Core/Src/can.c.obj
 .PHONY : Core/Src/can.obj
 
@@ -319,6 +327,54 @@ Core/Src/system_stm32l4xx.s: Core/Src/system_stm32l4xx.c.s
 Core/Src/system_stm32l4xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/system_stm32l4xx.c.s
 .PHONY : Core/Src/system_stm32l4xx.c.s
+
+Core/Src/tim.obj: Core/Src/tim.c.obj
+.PHONY : Core/Src/tim.obj
+
+# target to build an object file
+Core/Src/tim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/tim.c.obj
+.PHONY : Core/Src/tim.c.obj
+
+Core/Src/tim.i: Core/Src/tim.c.i
+.PHONY : Core/Src/tim.i
+
+# target to preprocess a source file
+Core/Src/tim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/tim.c.i
+.PHONY : Core/Src/tim.c.i
+
+Core/Src/tim.s: Core/Src/tim.c.s
+.PHONY : Core/Src/tim.s
+
+# target to generate assembly for a file
+Core/Src/tim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/tim.c.s
+.PHONY : Core/Src/tim.c.s
+
+Core/Src/usart.obj: Core/Src/usart.c.obj
+.PHONY : Core/Src/usart.obj
+
+# target to build an object file
+Core/Src/usart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/usart.c.obj
+.PHONY : Core/Src/usart.c.obj
+
+Core/Src/usart.i: Core/Src/usart.c.i
+.PHONY : Core/Src/usart.i
+
+# target to preprocess a source file
+Core/Src/usart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/usart.c.i
+.PHONY : Core/Src/usart.c.i
+
+Core/Src/usart.s: Core/Src/usart.c.s
+.PHONY : Core/Src/usart.s
+
+# target to generate assembly for a file
+Core/Src/usart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/usart.c.s
+.PHONY : Core/Src/usart.c.s
 
 Core/Startup/startup_stm32l496rgtx.obj: Core/Startup/startup_stm32l496rgtx.s.obj
 .PHONY : Core/Startup/startup_stm32l496rgtx.obj
@@ -760,6 +816,54 @@ Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.s
 .PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.s
 
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.obj: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.obj
+
+# target to build an object file
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.i: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.i
+
+# target to preprocess a source file
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i
+
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.s: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.s
+
+# target to generate assembly for a file
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s
+
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.obj: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.obj
+
+# target to build an object file
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
+
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.i: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.i
+
+# target to preprocess a source file
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i
+
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.s: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -769,6 +873,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... BEVO-firmware-2025.elf
+	@echo ... .idea/Core/Startup/startup_stm32l496rgtx.obj
 	@echo ... Core/Src/can.obj
 	@echo ... Core/Src/can.i
 	@echo ... Core/Src/can.s
@@ -793,6 +898,12 @@ help:
 	@echo ... Core/Src/system_stm32l4xx.obj
 	@echo ... Core/Src/system_stm32l4xx.i
 	@echo ... Core/Src/system_stm32l4xx.s
+	@echo ... Core/Src/tim.obj
+	@echo ... Core/Src/tim.i
+	@echo ... Core/Src/tim.s
+	@echo ... Core/Src/usart.obj
+	@echo ... Core/Src/usart.i
+	@echo ... Core/Src/usart.s
 	@echo ... Core/Startup/startup_stm32l496rgtx.obj
 	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.obj
 	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.i
@@ -848,6 +959,12 @@ help:
 	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.obj
 	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.i
 	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.s
+	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.obj
+	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.i
+	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.s
+	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.obj
+	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.i
+	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.s
 .PHONY : help
 
 

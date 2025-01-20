@@ -25,7 +25,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "led.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -52,7 +52,9 @@
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
-
+void toggleLED(void);
+void checkSwitch(void);
+void readDriverInput(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -68,6 +70,9 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
+  HAL_Init();
+  SystemClock_Config();
+  MX_GPIO_Init();
 
   /* USER CODE END 1 */
 
@@ -94,7 +99,13 @@ int main(void)
   MX_USART1_UART_Init();
   MX_TIM5_Init();
   /* USER CODE BEGIN 2 */
-
+  pushButton_1 = 0;
+  pushButton_2 = 0;
+  pushButton_3 = 0;
+  pushButton_4 = 0;
+  RTD_value = 0;
+  led_init();
+  led_rainbow(3);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -102,6 +113,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+    readDriverInput();
+    toggleLED();
+    HAL_Delay(500);
 
     /* USER CODE BEGIN 3 */
   }
@@ -127,12 +141,14 @@ void SystemClock_Config(void)
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
-  RCC_OscInitStruct.HSEState = RCC_HSE_ON;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_MSI;
+  RCC_OscInitStruct.MSIState = RCC_MSI_ON;
+  RCC_OscInitStruct.MSICalibrationValue = 0;
+  RCC_OscInitStruct.MSIClockRange = RCC_MSIRANGE_6;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
-  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_MSI;
   RCC_OscInitStruct.PLL.PLLM = 1;
-  RCC_OscInitStruct.PLL.PLLN = 10;
+  RCC_OscInitStruct.PLL.PLLN = 40;
   RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
   RCC_OscInitStruct.PLL.PLLQ = RCC_PLLQ_DIV2;
   RCC_OscInitStruct.PLL.PLLR = RCC_PLLR_DIV2;
@@ -157,6 +173,63 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+void toggleLED(void) {
+  HAL_GPIO_TogglePin(BMS_Indicator_GPIO_Port, BMS_Indicator_Pin);    //*inputs correct? thats just what clion suggested
+  HAL_GPIO_TogglePin(IMD_Indicator_GPIO_Port, IMD_Indicator_Pin);
+}
+
+void readDriverInput(void) {
+
+  if(HAL_GPIO_ReadPin(RTD_GPIO_Port, RTD_Pin) == GPIO_PIN_SET) {
+    RTD_value = 1;
+    led_set(255,192,203); // DEBUG - set LED to pink
+
+  }
+  else {
+    RTD_value = 0;
+  }
+
+  if(HAL_GPIO_ReadPin(PB_1_GPIO_Port, PB_1_Pin) == GPIO_PIN_SET) {
+    pushButton_1 = 1;
+    led_set(0,255,0); // DEBUG - set LED to green
+
+  }
+  else {
+    pushButton_1 = 0;
+  }
+
+  if(HAL_GPIO_ReadPin(PB_2_GPIO_Port, PB_2_Pin) == GPIO_PIN_SET) {
+    pushButton_2 = 1;
+    led_set(0,0,255); // DEBUG - set LED to blue
+
+  }
+  else {
+    pushButton_2 = 0;
+  }
+
+  if(HAL_GPIO_ReadPin(PB_3_GPIO_Port, PB_3_Pin) == GPIO_PIN_SET) {
+    pushButton_3 = 1;
+    led_set(255,255,00); // DEBUG - set LED to yellow
+
+  }
+  else {
+    pushButton_3 = 0;
+  }
+
+  if(HAL_GPIO_ReadPin(PB_4_GPIO_Port, PB_4_Pin) == GPIO_PIN_SET) {
+    pushButton_4 = 1;
+    led_set(80,00,80); // DEBUG - set LED to purple
+
+  }
+  else {
+    pushButton_4 = 0;
+  }
+
+
+  // DEBUG - turn off LED if no buttons are pressed
+  if(pushButton_1 == 0 && pushButton_2 == 0 && pushButton_3 == 0 && RTD_value == 0 && pushButton_4 == 0) {
+    led_off();
+}
 
 /* USER CODE END 4 */
 

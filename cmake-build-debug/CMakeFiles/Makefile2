@@ -80,12 +80,12 @@ clean: CMakeFiles/BEVO-firmware-2025.elf.dir/clean
 CMakeFiles/BEVO-firmware-2025.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target BEVO-firmware-2025.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34 "Built target BEVO-firmware-2025.elf"
 .PHONY : CMakeFiles/BEVO-firmware-2025.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BEVO-firmware-2025.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" 28
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" 34
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BEVO-firmware-2025.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/BEVO-firmware-2025.elf.dir/rule

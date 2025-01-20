@@ -34,4 +34,8 @@ CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_it.c.obj: \
  C:\Users\megan\DOWNLO~1\UTSCHO~1\BEVO-F~1\Drivers\STM32L~1\Inc/stm32l4xx_hal_flash_ramfunc.h \
  C:\Users\megan\DOWNLO~1\UTSCHO~1\BEVO-F~1\Drivers\STM32L~1\Inc/stm32l4xx_hal_pwr.h \
  C:\Users\megan\DOWNLO~1\UTSCHO~1\BEVO-F~1\Drivers\STM32L~1\Inc/stm32l4xx_hal_pwr_ex.h \
+ C:\Users\megan\DOWNLO~1\UTSCHO~1\BEVO-F~1\Drivers\STM32L~1\Inc/stm32l4xx_hal_tim.h \
+ C:\Users\megan\DOWNLO~1\UTSCHO~1\BEVO-F~1\Drivers\STM32L~1\Inc/stm32l4xx_hal_tim_ex.h \
+ C:\Users\megan\DOWNLO~1\UTSCHO~1\BEVO-F~1\Drivers\STM32L~1\Inc/stm32l4xx_hal_uart.h \
+ C:\Users\megan\DOWNLO~1\UTSCHO~1\BEVO-F~1\Drivers\STM32L~1\Inc/stm32l4xx_hal_uart_ex.h \
  C:\Users\megan\DOWNLO~1\UTSCHO~1\BEVO-F~1\Core\Inc/stm32l4xx_it.h

@@ -65,6 +65,14 @@ void Error_Handler(void);
 #define PB_3_GPIO_Port GPIOC
 #define PB_4_Pin GPIO_PIN_3
 #define PB_4_GPIO_Port GPIOC
+#define LED_R_Pin GPIO_PIN_0
+#define LED_R_GPIO_Port GPIOA
+#define LED_G_Pin GPIO_PIN_1
+#define LED_G_GPIO_Port GPIOA
+#define LED_B_Pin GPIO_PIN_2
+#define LED_B_GPIO_Port GPIOA
+#define MCU_AUDIO_Pin GPIO_PIN_15
+#define MCU_AUDIO_GPIO_Port GPIOB
 #define IMD_Indicator_Pin GPIO_PIN_8
 #define IMD_Indicator_GPIO_Port GPIOC
 #define BMS_Indicator_Pin GPIO_PIN_9
@@ -77,7 +85,11 @@ void Error_Handler(void);
 #define USB_DP_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
-
+  int pushButton_1;
+  int pushButton_2;
+  int pushButton_3;
+  int pushButton_4;
+  int RTD_value;
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
