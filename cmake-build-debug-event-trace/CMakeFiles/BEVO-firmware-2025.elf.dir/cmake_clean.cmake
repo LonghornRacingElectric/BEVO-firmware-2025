@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/can.c.obj.d"
   "CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/gpio.c.obj"
   "CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/gpio.c.obj.d"
+  "CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/led.c.obj"
+  "CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/led.c.obj.d"
   "CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/main.c.obj"
   "CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/main.c.obj.d"
   "CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj"

@@ -52,10 +52,10 @@ RM = "C:\Users\megan\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025"
+CMAKE_SOURCE_DIR = C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BEVO-firmware-2025.elf.dir/depend.make
@@ -69,464 +69,464 @@ include CMakeFiles/BEVO-firmware-2025.elf.dir/progress.make
 include CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/.idea/Core/Startup/startup_stm32l496rgtx.s.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/.idea/Core/Startup/startup_stm32l496rgtx.s.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/.idea/Core/Startup/startup_stm32l496rgtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object CMakeFiles/BEVO-firmware-2025.elf.dir/.idea/Core/Startup/startup_stm32l496rgtx.s.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\BEVO-firmware-2025.elf.dir\.idea\Core\Startup\startup_stm32l496rgtx.s.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\.idea\Core\Startup\startup_stm32l496rgtx.s"
+CMakeFiles/BEVO-firmware-2025.elf.dir/.idea/Core/Startup/startup_stm32l496rgtx.s.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/.idea/Core/Startup/startup_stm32l496rgtx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object CMakeFiles/BEVO-firmware-2025.elf.dir/.idea/Core/Startup/startup_stm32l496rgtx.s.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\BEVO-firmware-2025.elf.dir\.idea\Core\Startup\startup_stm32l496rgtx.s.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\.idea\Core\Startup\startup_stm32l496rgtx.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/.idea/Core/Startup/startup_stm32l496rgtx.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/BEVO-firmware-2025.elf.dir/.idea/Core/Startup/startup_stm32l496rgtx.s.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\.idea\Core\Startup\startup_stm32l496rgtx.s" > CMakeFiles\BEVO-firmware-2025.elf.dir\.idea\Core\Startup\startup_stm32l496rgtx.s.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\.idea\Core\Startup\startup_stm32l496rgtx.s > CMakeFiles\BEVO-firmware-2025.elf.dir\.idea\Core\Startup\startup_stm32l496rgtx.s.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/.idea/Core/Startup/startup_stm32l496rgtx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/.idea/Core/Startup/startup_stm32l496rgtx.s.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\.idea\Core\Startup\startup_stm32l496rgtx.s" -o CMakeFiles\BEVO-firmware-2025.elf.dir\.idea\Core\Startup\startup_stm32l496rgtx.s.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\.idea\Core\Startup\startup_stm32l496rgtx.s -o CMakeFiles\BEVO-firmware-2025.elf.dir\.idea\Core\Startup\startup_stm32l496rgtx.s.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/can.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/can.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Core/Src/can.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/can.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Core/Src/can.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/can.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/can.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/can.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\can.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\can.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\can.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/can.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/can.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\can.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\can.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\can.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/can.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\can.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\can.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\can.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\can.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/can.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\can.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\can.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\can.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\can.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/gpio.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Core/Src/gpio.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/gpio.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Core/Src/gpio.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/gpio.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\gpio.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\gpio.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/gpio.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\gpio.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\gpio.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/gpio.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\gpio.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\gpio.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\gpio.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\gpio.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/gpio.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\gpio.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\gpio.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\gpio.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\gpio.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/led.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/led.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Core/Src/led.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/led.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Core/Src/led.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/led.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/led.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/led.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\led.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\led.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\led.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/led.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/led.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\led.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\led.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\led.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/led.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/led.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\led.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\led.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\led.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\led.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/led.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/led.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\led.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\led.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\led.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\led.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/main.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/main.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Core/Src/main.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/main.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Core/Src/main.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/main.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/main.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\main.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/main.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\main.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\main.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/main.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\main.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\main.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\main.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\main.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/main.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\main.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\main.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\main.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\main.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Core/Src/stm32l4xx_hal_msp.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Core/Src/stm32l4xx_hal_msp.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\stm32l4xx_hal_msp.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\stm32l4xx_hal_msp.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\stm32l4xx_hal_msp.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\stm32l4xx_hal_msp.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\stm32l4xx_hal_msp.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\stm32l4xx_hal_msp.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_hal_msp.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\stm32l4xx_hal_msp.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\stm32l4xx_hal_msp.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\stm32l4xx_hal_msp.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\stm32l4xx_hal_msp.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_hal_msp.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\stm32l4xx_hal_msp.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\stm32l4xx_hal_msp.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\stm32l4xx_hal_msp.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\stm32l4xx_hal_msp.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_it.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_it.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Core/Src/stm32l4xx_it.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_it.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Core/Src/stm32l4xx_it.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_it.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_it.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_it.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\stm32l4xx_it.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\stm32l4xx_it.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\stm32l4xx_it.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_it.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_it.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\stm32l4xx_it.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\stm32l4xx_it.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\stm32l4xx_it.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_it.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\stm32l4xx_it.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\stm32l4xx_it.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\stm32l4xx_it.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\stm32l4xx_it.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/stm32l4xx_it.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\stm32l4xx_it.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\stm32l4xx_it.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\stm32l4xx_it.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\stm32l4xx_it.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/syscalls.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Core/Src/syscalls.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/syscalls.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Core/Src/syscalls.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/syscalls.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\syscalls.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\syscalls.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/syscalls.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\syscalls.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\syscalls.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/syscalls.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\syscalls.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\syscalls.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\syscalls.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\syscalls.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/syscalls.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\syscalls.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\syscalls.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\syscalls.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\syscalls.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/sysmem.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Core/Src/sysmem.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/sysmem.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Core/Src/sysmem.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/sysmem.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\sysmem.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\sysmem.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/sysmem.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\sysmem.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\sysmem.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/sysmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/sysmem.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\sysmem.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\sysmem.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\sysmem.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\sysmem.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/sysmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/sysmem.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\sysmem.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\sysmem.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\sysmem.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\sysmem.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/system_stm32l4xx.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/system_stm32l4xx.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Core/Src/system_stm32l4xx.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/system_stm32l4xx.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Core/Src/system_stm32l4xx.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/system_stm32l4xx.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/system_stm32l4xx.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/system_stm32l4xx.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\system_stm32l4xx.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\system_stm32l4xx.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\system_stm32l4xx.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/system_stm32l4xx.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/system_stm32l4xx.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\system_stm32l4xx.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\system_stm32l4xx.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\system_stm32l4xx.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/system_stm32l4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/system_stm32l4xx.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\system_stm32l4xx.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\system_stm32l4xx.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\system_stm32l4xx.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\system_stm32l4xx.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/system_stm32l4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/system_stm32l4xx.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\system_stm32l4xx.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\system_stm32l4xx.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\system_stm32l4xx.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\system_stm32l4xx.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/tim.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/tim.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Core/Src/tim.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/tim.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Core/Src/tim.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/tim.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/tim.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\tim.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\tim.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\tim.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/tim.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\tim.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\tim.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\tim.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/tim.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\tim.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\tim.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\tim.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\tim.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/tim.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\tim.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\tim.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\tim.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\tim.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/usart.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/usart.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Core/Src/usart.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/usart.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Core/Src/usart.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/usart.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/usart.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\usart.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\usart.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/usart.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\usart.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\usart.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/usart.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\usart.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\usart.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\usart.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\usart.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/usart.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Src\usart.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\usart.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Src\usart.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Src\usart.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Startup/startup_stm32l496rgtx.s.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Startup/startup_stm32l496rgtx.s.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Core/Startup/startup_stm32l496rgtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Startup/startup_stm32l496rgtx.s.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Startup\startup_stm32l496rgtx.s.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Startup\startup_stm32l496rgtx.s"
+CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Startup/startup_stm32l496rgtx.s.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Core/Startup/startup_stm32l496rgtx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Startup/startup_stm32l496rgtx.s.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Startup\startup_stm32l496rgtx.s.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Startup\startup_stm32l496rgtx.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Startup/startup_stm32l496rgtx.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Startup/startup_stm32l496rgtx.s.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Startup\startup_stm32l496rgtx.s" > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Startup\startup_stm32l496rgtx.s.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Startup\startup_stm32l496rgtx.s > CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Startup\startup_stm32l496rgtx.s.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Startup/startup_stm32l496rgtx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Startup/startup_stm32l496rgtx.s.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Core\Startup\startup_stm32l496rgtx.s" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Startup\startup_stm32l496rgtx.s.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Core\Startup\startup_stm32l496rgtx.s -o CMakeFiles\BEVO-firmware-2025.elf.dir\Core\Startup\startup_stm32l496rgtx.s.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_can.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_can.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_can.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_can.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_can.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_can.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_can.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_can.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_can.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_can.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_can.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_can.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_can.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_can.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.s
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/flags.make
-CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: C:/Users/megan/Downloads/UT\ Schoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c
+CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: CMakeFiles/BEVO-firmware-2025.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.obj -c "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj"
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj -MF CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.obj.d -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.obj -c C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c" > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.i
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c > CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.i
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s"
-	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c" -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.s
+	C:\PROGRA~2\ARMGNU~2\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c -o CMakeFiles\BEVO-firmware-2025.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.s
 
 # Object files for target BEVO-firmware-2025.elf
 BEVO__firmware__2025_elf_OBJECTS = \
@@ -602,12 +602,12 @@ BEVO-firmware-2025.elf: CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_
 BEVO-firmware-2025.elf: CMakeFiles/BEVO-firmware-2025.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
 BEVO-firmware-2025.elf: CMakeFiles/BEVO-firmware-2025.elf.dir/build.make
 BEVO-firmware-2025.elf: CMakeFiles/BEVO-firmware-2025.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Linking C executable BEVO-firmware-2025.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking C executable BEVO-firmware-2025.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BEVO-firmware-2025.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/Users/megan/Downloads/UT Schoolwork/BEVO-firmware-2025/cmake-build-debug/BEVO-firmware-2025.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/Users/megan/Downloads/UT Schoolwork/BEVO-firmware-2025/cmake-build-debug/BEVO-firmware-2025.bin"
-	arm-none-eabi-objcopy -Oihex "C:/Users/megan/Downloads/UT Schoolwork/BEVO-firmware-2025/cmake-build-debug/BEVO-firmware-2025.elf" "C:/Users/megan/Downloads/UT Schoolwork/BEVO-firmware-2025/cmake-build-debug/BEVO-firmware-2025.hex"
-	arm-none-eabi-objcopy -Obinary "C:/Users/megan/Downloads/UT Schoolwork/BEVO-firmware-2025/cmake-build-debug/BEVO-firmware-2025.elf" "C:/Users/megan/Downloads/UT Schoolwork/BEVO-firmware-2025/cmake-build-debug/BEVO-firmware-2025.bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/cmake-build-debug/BEVO-firmware-2025.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/cmake-build-debug/BEVO-firmware-2025.bin"
+	arm-none-eabi-objcopy -Oihex C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/cmake-build-debug/BEVO-firmware-2025.elf C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/cmake-build-debug/BEVO-firmware-2025.hex
+	arm-none-eabi-objcopy -Obinary C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/cmake-build-debug/BEVO-firmware-2025.elf C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/cmake-build-debug/BEVO-firmware-2025.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/BEVO-firmware-2025.elf.dir/build: BEVO-firmware-2025.elf
@@ -618,6 +618,6 @@ CMakeFiles/BEVO-firmware-2025.elf.dir/clean:
 .PHONY : CMakeFiles/BEVO-firmware-2025.elf.dir/clean
 
 CMakeFiles/BEVO-firmware-2025.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025" "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025" "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug" "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug" "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles\BEVO-firmware-2025.elf.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025 C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025 C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug\CMakeFiles\BEVO-firmware-2025.elf.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/BEVO-firmware-2025.elf.dir/depend
 

@@ -102,7 +102,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/megan/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake"
   "C:/Users/megan/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake"
   "C:/Users/megan/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Generic.cmake"
-  "C:/Users/megan/Downloads/UT Schoolwork/BEVO-firmware-2025/CMakeLists.txt"
+  "C:/Users/megan/Downloads/UTSchoolwork/BEVO-firmware-2025/CMakeLists.txt"
   "CMakeFiles/3.29.6/CMakeASMCompiler.cmake"
   "CMakeFiles/3.29.6/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.6/CMakeCXXCompiler.cmake"

@@ -56,10 +56,10 @@ RM = "C:\Users\megan\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025"
+CMAKE_SOURCE_DIR = C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug-event-trace"
+CMAKE_BINARY_DIR = C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug-event-trace
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug-event-trace\CMakeFiles" "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug-event-trace\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug-event-trace\CMakeFiles C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug-event-trace\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\megan\Downloads\UT Schoolwork\BEVO-firmware-2025\cmake-build-debug-event-trace\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\megan\Downloads\UTSchoolwork\BEVO-firmware-2025\cmake-build-debug-event-trace\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -183,6 +183,30 @@ Core/Src/gpio.s: Core/Src/gpio.c.s
 Core/Src/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/gpio.c.s
 .PHONY : Core/Src/gpio.c.s
+
+Core/Src/led.obj: Core/Src/led.c.obj
+.PHONY : Core/Src/led.obj
+
+# target to build an object file
+Core/Src/led.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/led.c.obj
+.PHONY : Core/Src/led.c.obj
+
+Core/Src/led.i: Core/Src/led.c.i
+.PHONY : Core/Src/led.i
+
+# target to preprocess a source file
+Core/Src/led.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/led.c.i
+.PHONY : Core/Src/led.c.i
+
+Core/Src/led.s: Core/Src/led.c.s
+.PHONY : Core/Src/led.s
+
+# target to generate assembly for a file
+Core/Src/led.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BEVO-firmware-2025.elf.dir\build.make CMakeFiles/BEVO-firmware-2025.elf.dir/Core/Src/led.c.s
+.PHONY : Core/Src/led.c.s
 
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
@@ -880,6 +904,9 @@ help:
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
+	@echo ... Core/Src/led.obj
+	@echo ... Core/Src/led.i
+	@echo ... Core/Src/led.s
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
